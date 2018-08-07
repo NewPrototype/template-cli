@@ -1,4 +1,4 @@
-#!/usr/bind/env node  //用于执行node命令
+#!/usr/bind/env node 
 const fs = require('fs');
 
 const program = require('commander');

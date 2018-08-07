@@ -1,5 +1,5 @@
 {
-  "name": "template-cli",
+  "name": "template-react-cli",
   "version": "1.0.0",
   "description": "一键生成模版",
   "main": "index.js",
