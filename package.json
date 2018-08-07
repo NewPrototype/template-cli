@@ -13,6 +13,7 @@
   "bin": {
     "tt": "./bin/index.js"
   },
+  "main" : "index.js",
   "author": "jincieryi",
   "license": "ISC",
   "bugs": {
