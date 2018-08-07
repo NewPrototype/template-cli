@@ -1,6 +1,6 @@
 {
   "name": "template-react-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "一键生成模版",
   "main": "index.js",
   "scripts": {
