@@ -11,9 +11,9 @@
     "url": "git+https://github.com/NewPrototype/template-cli.git"
   },
   "bin": {
-    "t": "./index.js"
+    "tt": "./index.js"
   },
-  "author": "",
+  "author": "jincieryi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NewPrototype/template-cli/issues"
