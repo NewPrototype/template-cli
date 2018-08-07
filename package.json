@@ -1,6 +1,6 @@
 {
   "name": "template-react-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "一键生成模版",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,6 @@
   "bin": {
     "tt": "./bin/index.js"
   },
-  "main" : "index.js",
   "author": "jincieryi",
   "license": "ISC",
   "bugs": {
