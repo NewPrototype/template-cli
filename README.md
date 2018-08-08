@@ -29,9 +29,10 @@ temp init 模块名称
 - react-redux------ES6 组件:包含生命周期的 React.Component 组件并且包含 redux 配置组件
 
 #### 组件模版地址:https://github.com/NewPrototype/template 
-#### 完成cli地址:https://github.com/NewPrototype/webpack4-es6-react
+#### 完成脚手架地址:https://github.com/NewPrototype/webpack4-es6-react
 
 #### npm发布流程
+
 - 在https://www.npmjs.com/中注册账号(如果有请忽略)
 - npm adduser 相应输入用户名，密码，邮箱
 - npm publish 就可以看到提交了（只支持npm提交，如果用了淘宝镜像注意切换）
