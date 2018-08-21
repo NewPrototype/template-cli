@@ -20,7 +20,7 @@
     "temp"
   ],
   "bin": {
-    "temp": "bin/index.js"
+    "temp": "index.js"
   },
   "author": "jincieryi",
   "license": "ISC",
