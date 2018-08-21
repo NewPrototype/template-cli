@@ -2,10 +2,10 @@
 const fs = require('fs');
 
 const program = require('commander');
-const download = require('download-git-repo');
-const chalk = require('chalk');
-const symbols = require('log-symbols');
-const handlebars = require('handlebars'); //模版文件下载
+const download = require('download-git-repo'); //下载模版文件
+const chalk = require('chalk');  //美化终端
+const symbols = require('log-symbols'); //美化终端
+const handlebars = require('handlebars'); //修改模版文件内容
 
 const ora = require('ora'); //提示下载
 var inquirer = require('inquirer');  //提示文本
@@ -31,6 +31,9 @@ program
               'react-component------ES6组件',
               'react-function------函数组件',
               'react-redux------ES6组件',
+              'react-function-typescript------ES6组件',
+              'react-component-typescript------ES6组件',
+
             ],
           },
         ])
@@ -56,7 +59,7 @@ program
               }
               let count = 0; //所有文件修改完成，提示
               for (let i = 0; i < files.length; i++) {
-                if(files[i]=='index.js'||files[i]=='action.js'||files[i]=='reducer.js'||files[i]=='saga.js'){
+                if(files[i]=='index.js'||files[i]=='action.js'||files[i]=='reducer.js'||files[i]=='saga.js'||files[i]=='README.md'){
                   continue
                 }
                 //获取文件列表
@@ -97,8 +100,16 @@ const getType = (type) => {
       case "react-redux------ES6组件":
       str = "redux"
       break;
+      case "react-function-typescript------ES6组件":
+      str = "function-typescript"
+      break;
+      case "react-component-typescript------ES6组件":
+      str = "component-typescript"
+      break;
     default:
       break;
   }
   return str
 }
+
+
