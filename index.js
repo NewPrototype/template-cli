@@ -59,7 +59,7 @@ program
               }
               let count = 0; //所有文件修改完成，提示
               for (let i = 0; i < files.length; i++) {
-                if(files[i]=='index.js'||files[i]=='action.js'||files[i]=='reducer.js'||files[i]=='saga.js'||files[i]=='README.md'){
+                if(files[i]=='index.ts'||files[i]=='index.js'||files[i]=='action.js'||files[i]=='reducer.js'||files[i]=='saga.js'||files[i]=='README.md'){
                   continue
                 }
                 //获取文件列表
@@ -100,10 +100,10 @@ const getType = (type) => {
       case "react-redux------ES6组件":
       str = "redux"
       break;
-      case "react-function-typescript------ES6组件":
+      case "react-function-typescript------typescript ES6组件":
       str = "function-typescript"
       break;
-      case "react-component-typescript------ES6组件":
+      case "react-component-typescript------typescript 函数组件":
       str = "component-typescript"
       break;
     default:
