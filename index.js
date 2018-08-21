@@ -31,9 +31,8 @@ program
               'react-component------ES6组件',
               'react-function------函数组件',
               'react-redux------ES6组件',
-              'react-function-typescript------ES6组件',
-              'react-component-typescript------ES6组件',
-
+              'react-function-typescript------typescript ES6组件',
+              'react-component-typescript------typescript 函数组件',
             ],
           },
         ])

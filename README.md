@@ -27,8 +27,8 @@ temp init 模块名称
 - react-component------ES6 组件:包含生命周期的 React.Component 组件
 - react-function------函数组件:纯函数组件
 - react-redux------ES6 组件:包含生命周期的 React.Component 组件并且包含 redux 配置组件
-- react-function-typescript------ES6组件   typescript 函数组件:纯函数组件
-- react-component-typescript------ES6组件  typescript ES6 组件:包含生命周期的 React.Component 组件
+- react-function-typescript------typescript ES6组件   typescript 函数组件:纯函数组件
+- react-component-typescript------typescript 函数组件  typescript ES6 组件:包含生命周期的 React.Component 组件
 
 #### 组件模版地址:https://github.com/NewPrototype/template 
 #### 完成脚手架地址:https://github.com/NewPrototype/webpack4-es6-react
