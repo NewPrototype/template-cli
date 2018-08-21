@@ -31,8 +31,8 @@ program
               'react-component------ES6组件',
               'react-function------函数组件',
               'react-redux------ES6组件',
-              'react-function-typescript------typescript ES6组件',
-              'react-component-typescript------typescript 函数组件',
+              'react-function-typescript------typescript 函数组件',
+              'react-component-typescript------typescript ES6组件',
             ],
           },
         ])
@@ -99,10 +99,10 @@ const getType = (type) => {
       case "react-redux------ES6组件":
       str = "redux"
       break;
-      case "react-function-typescript------typescript ES6组件":
+      case "react-function-typescript------typescript 函数组件":
       str = "function-typescript"
       break;
-      case "react-component-typescript------typescript 函数组件":
+      case "react-component-typescript------typescript ES6组件":
       str = "component-typescript"
       break;
     default:
