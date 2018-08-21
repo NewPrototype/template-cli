@@ -9,7 +9,7 @@ const handlebars = require('handlebars'); //修改模版文件内容
 
 const ora = require('ora'); //提示下载
 var inquirer = require('inquirer');  //提示文本
-const package = require('./../package.json'); //获取版本信息
+const package = require('./package.json'); //获取版本信息
 const re = new RegExp("^[a-zA-Z]+$"); //检查文件名是否是英文，只支持英文
 
 program
