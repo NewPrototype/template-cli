@@ -1,6 +1,6 @@
 {
   "name": "template-react-cli",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "一键生成模版",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/NewPrototype/template-cli.git"
   },
-  "Keywords":["template","typescript","react","create template","commander","download-git-repo"],
+  "Keywords": [
+    "template",
+    "typescript",
+    "react",
+    "create template",
+    "commander",
+    "download-git-repo"
+  ],
   "bin": {
     "temp": "bin/index.js"
   },
