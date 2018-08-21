@@ -10,13 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/NewPrototype/template-cli.git"
   },
-  "Keywords": [
+  "keywords": [
     "template",
     "typescript",
     "react",
     "create template",
     "commander",
-    "download-git-repo"
+    "download-git-repo",
+    "temp"
   ],
   "bin": {
     "temp": "bin/index.js"
