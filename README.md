@@ -12,7 +12,7 @@ npm i template-react-cli -g
 temp init 模块名称 test1 
 ```
 
-比如: temp init Header
+比如: temp init Header test2
 
 #### 流程
 
